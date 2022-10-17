@@ -7,9 +7,6 @@ public class Lampada {
     
     public void  acionarOnOff(){
         estado = !estado;
-        if (estado) {
-            potencia == 100;
-        }
     }
    
     public boolean getEstado(){
